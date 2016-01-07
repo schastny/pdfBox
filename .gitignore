@@ -1,0 +1,9 @@
+.project
+.settings
+.classpath
+target
+bin
+out.pdf
+*.iml
+*.ipr
+*.iws
