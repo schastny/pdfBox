@@ -13,8 +13,9 @@ public class Launcher {
         System.out.printf("Filling up the form %s. Check out result in %s\n", originalPdf, targetPdf);
 
         Populater p = new Populater(originalPdf, targetPdf);
-//        p.printFields();
+        p.printFields();
         p.populateField("Last name.Last name", "LastName Filled");
+        p.populateField("First name.First name", "Anton");
         p.saveAndClose();
 
         System.out.println("Filling Complete");
